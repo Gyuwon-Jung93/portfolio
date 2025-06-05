@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
     <head>
-        <title>Massively by HTML5 UP</title>
+        <title>Q1's World</title>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
         <link rel="stylesheet" href="assets/css/main.css" />
         <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <link rel="icon" type="image/png" href="images/Logo1.png" />
     </head>
     <body class="is-preload">
         <!-- Wrapper -->
@@ -24,10 +21,12 @@
                 </h1>
 
                 <p>
-                    Backend-focused Software Engineer with expertise in designing and optimising scalable systems.
-                    Skilled in secure service integration and performance optimisation, particularly in Python and Linux
-                    environments. Experienced in SQL query optimisation to enhance search performance and improve system
-                    efficiency.
+                    I began my development journey with Java and Spring, creating a pet walking companion finder
+                    website. My professional career started at Wein Technology Inc., where I worked on consumer finance
+                    ERP maintenance and innovative financial platforms. I was responsible for developing credit loan
+                    information inquiry APIs using BankSalad/Payco platforms, specifically handling loan limit inquiry
+                    features for different banks. This experience was built on PHP-based Laravel framework, marking the
+                    beginning of my professional career in software development.
                 </p>
             </div>
 
@@ -39,22 +38,27 @@
             <!-- Nav -->
             <nav id="nav">
                 <ul class="links">
-                    <li class="active"><a href="index.html">This is Massively</a></li>
-                    <li><a href="generic.html">Generic Page</a></li>
-                    <li><a href="elements.html">Elements Reference</a></li>
+                    <li class="active"><a href="#about-me">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul class="icons">
                     <li>
-                        <a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a>
+                        <a href="https://github.com/yourusername" class="icon brands fa-github"
+                            ><span class="label">GitHub</span></a
+                        >
                     </li>
                     <li>
-                        <a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a>
+                        <a href="https://linkedin.com/in/yourusername" class="icon brands fa-linkedin"
+                            ><span class="label">LinkedIn</span></a
+                        >
                     </li>
                     <li>
-                        <a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a>
-                    </li>
-                    <li>
-                        <a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a>
+                        <a href="mailto:your.email@example.com" class="icon solid fa-envelope"
+                            ><span class="label">Email</span></a
+                        >
                     </li>
                 </ul>
             </nav>
@@ -62,9 +66,9 @@
             <!-- Main -->
             <div id="main">
                 <!-- Featured Post -->
-                <article class="post featured">
+                <article id="about-me" class="post featured">
                     <header class="major">
-                        <span class="date">May 30, 2025</span>
+                        <span class="date" id="currentDate"></span>
                         <h2>
                             <a href="#"
                                 >Hello, World!<br />
@@ -72,131 +76,295 @@
                             </a>
                         </h2>
                         <p>
-                            Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br />
-                            facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br />
-                            amet nullam sed etiam veroeros.
+                            As a Psychology graduate turned Software Engineer, I am passionate about creating technology
+                            that makes a meaningful impact on people's lives. My background in psychology gives me a
+                            unique perspective on understanding human needs and behaviors, which I apply to develop
+                            user-centric solutions. I believe in the power of technology to improve human well-being and
+                            am committed to creating applications that address real-world challenges. When I encounter
+                            inefficiencies or user pain points, I don't just pass them by - I see them as opportunities
+                            to make things better. My goal is to bridge the gap between human psychology and technology,
+                            creating solutions that are not only technically sound but also deeply empathetic to user
+                            needs.
                         </p>
                     </header>
-                    <a href="#" class="image main"><img src="images/pic01.jpg" alt="" /></a>
-                    <ul class="actions special">
-                        <li><a href="#" class="button large">Full Story</a></li>
-                    </ul>
+                </article>
+
+                <!-- Featured Post -->
+                <article id="experience" class="post featured">
+                    <header class="major">
+                        <h2>
+                            <a href="#">Experience<br /> </a>
+                        </h2>
+                    </header>
+                    <div class="experience-cards">
+                        <div class="exp-card simple">
+                            <div class="exp-period">September 2021 – October 2022</div>
+                            <div class="exp-title simple">
+                                Junior Software Engineer (Wein Technology Inc.)</span>
+                            </div>
+                            <div class="exp-desc simple">
+                                Developed and maintained a financial loan management ERP system, including the
+                                development of loan limit inquiry APIs. Tackled critical API issues by analyzing error
+                                logs and collaborating with the bug fix team, resulting in a reduction of error rates to
+                                below 1% and a 20% increase in customer acquisition. Optimized ERP query performance by
+                                refining inefficient PostgreSQL queries, cutting execution time by 70% and reducing loan
+                                processing from 2 days to 1 day. Supported the migration from PHP 5 to PHP 7 by
+                                researching deprecated functions, suggesting alternatives, and ensuring a smooth
+                                transition with minimal disruption and type-related errors under 1%.
+                            </div>
+                            <div class="exp-skills simple">
+                                <span>PHP</span>
+                                <span>Laravel</span>
+                                <span>PostgreSQL</span>
+                                <span>JavaScript</span>
+                                <span>Django</span>
+                                <span>Database Indexing</span>
+                                <span>Redis</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article id="education" class="post featured">
+                    <header class="major">
+                        <h2>
+                            <a href="#">Education<br /> </a>
+                        </h2>
+                    </header>
+                    <div class="experience-cards">
+                        <div class="exp-card simple">
+                            <div class="exp-period">September 2023 – June 2025</div>
+                            <div class="exp-title simple">University College Dublin</div>
+                            <!-- <div class="exp-desc simple">
+                               
+                            </div> -->
+                            <div class="exp-skills simple" style="flex-wrap: wrap">
+                                <span>Data Mining</span>
+                                <span>Connectionist Computing</span>
+                                <span>Multi-Agent Systems</span>
+                                <span>Machine Learning with Python</span>
+                                <span>Cloud Computing</span>
+                                <span>Research Practicum (MSc Conversion)</span>
+                                <span>Data Structures & Algorithms</span>
+                                <span>Networks & Internet Systems</span>
+                                <span>Computer Architecture & Organisation</span>
+                                <span>Java Programming</span>
+                                <span>Software Engineering</span>
+                                <span>Data Analytics</span>
+                                <span>Programming I</span>
+                                <span>Relational Databases & Information Systems</span>
+                                <span>Python OOP</span>
+                                <span>Operating Systems</span>
+                                <span>Web Application Development</span>
+                                <span>Computational Thinking</span>
+                            </div>
+                        </div>
+                    </div>
                 </article>
 
                 <!-- Posts -->
                 <section class="posts">
-                    <article>
+                    <article id="projects" class="post featured">
                         <header>
-                            <span class="date">April 24, 2017</span>
+                            <span class="date">May 18, 2025 - Present</span>
                             <h2>
                                 <a href="#"
-                                    >Sed magna<br />
-                                    ipsum faucibus</a
+                                    >Large-Scale System <br />
+                                    Infrastructure Build</a
                                 >
                             </h2>
                         </header>
-                        <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+                        <a href="#" class="image fit"><img src="images/Distributed System.png" alt="" /></a>
                         <p>
-                            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                            Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
+                            Designed and implemented a personal project simulating enterprise-scale systems using
+                            Microservice Architecture and event-driven design. Utilised Java, MySQL (with advanced
+                            indexing and query optimisation), Redis caching, and Kafka event streaming to efficiently
+                            process and manage 12 million records. Explored distributed transactions, concurrency
+                            control, and scalable system patterns to ensure high performance and reliability under heavy
+                            load.
                         </p>
+                        <ul class="exp-skills simple">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>JUnit</span>
+                            <span>Redis</span>
+                            <span>Kafka</span>
+                            <span>MySQL</span>
+                            <span>Microservice Architecture</span>
+                            <span>Event-Driven Design</span>
+                            <span>Distributed Transactions</span>
+                            <span>Concurrency Control</span>
+                        </ul>
                         <ul class="actions special">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li>
+                                <a href="https://github.com/Gyuwon-Jung93/Large-scale-board" class="button"
+                                    ><span class="icon brands fa-github"></span> Github</a
+                                >
+                            </li>
                         </ul>
                     </article>
                     <article>
                         <header>
-                            <span class="date">April 22, 2017</span>
-                            <h2>
-                                <a href="#"
-                                    >Primis eget<br />
-                                    imperdiet lorem</a
-                                >
-                            </h2>
+                            <span class="date">Jul 2024 - Jul 2024</span>
+                            <h2>Emotion Diary</h2>
                         </header>
-                        <a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
+                        <a href="https://emotion-diary-omega-cyan.vercel.app/" class="image fit" target="_blank"
+                            ><img src="images/emotionDiary.png" alt=""
+                        /></a>
                         <p>
-                            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                            Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
+                            The Emotion Diary project aims to assist users in recording their daily events and
+                            reflections. It provides a service to help transform negative experiences of the day into
+                            positive words and sentences. This app addresses the difficulties and inconveniences
+                            associated with writing a diary by hand.
                         </p>
+                        <ul class="exp-skills simple">
+                            <span>Web Application</span>
+                            <span>React</span>
+                            <span>Tailwind CSS</span>
+                            <span>Vercel</span>
+                            <span>Git</span>
+                            <span>GitHub</span>
+                        </ul>
                         <ul class="actions special">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li>
+                                <a href="https://github.com/Q1-in-Dublin/Emotion_Diray" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Github
+                                </a>
+                                <a href="https://emotion-diary-omega-cyan.vercel.app/" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Check the Service
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article>
+                        <header>
+                            <span class="date">Jul 2024 - Jul 2024</span>
+                            <h2>Todo_list</h2>
+                        </header>
+                        <a href="https://todolist-pink-psi.vercel.app/" class="image fit" target="_blank">
+                            <img src="images/todolist.png" alt="Todo_list Screenshot" />
+                        </a>
+                        <p>
+                            The Todo_list project allows users to easily create and manage to-do lists with simple CRUD
+                            operations. All tasks are stored in localStorage, ensuring your data is safe even after
+                            closing or refreshing the browser. Users can select different dates to organize their tasks,
+                            making it easy to plan and track progress over multiple days. The intuitive interface is
+                            designed for efficient task management, whether for personal goals, work, or daily routines.
+                        </p>
+                        <ul class="exp-skills simple">
+                            <span>React</span>
+                            <span>Vercel</span>
+                            <span>localStorage</span>
+                            <span>CRUD</span>
+                            <span>UI/UX</span>
+                        </ul>
+                        <ul class="actions special">
+                            <li>
+                                <a href="https://github.com/Q1-in-Dublin/To_do_list" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Github
+                                </a>
+                                <a href="https://todolist-pink-psi.vercel.app/" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Check the Service
+                                </a>
+                            </li>
+                        </ul>
+                    </article>
+
+                    <article>
+                        <header>
+                            <span class="date">May 2024 - Jul 2024</span>
+                            <h2>PinBox!</h2>
+                        </header>
+                        <a href="https://github.com/eoinmtreacy/pinbox" class="image fit" target="_blank">
+                            <img src="images/pinbox.png" alt="PinBox Screenshot" class="project-img" />
+                        </a>
+                        <p>
+                            Led the PinBox! project as my Master's capstone, developing an AI-driven travel planner.
+                            Defined business requirements, created Figma wireframes, and managed the team with Daily
+                            Scrum sessions. Self-learned JavaScript, React, and Tailwind CSS to support the frontend,
+                            delivering an intuitive interface and ensuring timely project delivery.
+                        </p>
+                        <ul class="exp-skills simple">
+                            <span>React</span>
+                            <span>AWS</span>
+                            <span>C#</span>
+                            <span>DOCKER</span>
+                            <span>PostgreSQL</span>
+                            <span>FIGMA</span>
+                        </ul>
+                        <ul class="actions special">
+                            <li>
+                                <a href="https://github.com/eoinmtreacy/pinbox" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Github
+                                </a>
+                                <a href="http://pinboxnyc.co/mainpage" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Check the Service
+                                </a>
+                            </li>
                         </ul>
                     </article>
                     <article>
                         <header>
-                            <span class="date">April 18, 2017</span>
-                            <h2>
-                                <a href="#"
-                                    >Ante mattis<br />
-                                    interdum dolor</a
-                                >
-                            </h2>
+                            <span class="date">May 2024 - Jul 2024</span>
+                            <h2>WaybackHome</h2>
                         </header>
-                        <a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
+                        <a href="https://github.com/eoinmtreacy/pinbox" class="image fit" target="_blank">
+                            <img src="images/waybackhome.png" alt="PinBox Screenshot" class="project-img" />
+                        </a>
                         <p>
-                            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                            Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
+                            Developed a Java and JavaFX game promoting sustainable transport, advocating for an OOP
+                            design with a Transport parent class to streamline CO2/stamina calculations for Bicycle and
+                            Bus, reducing code duplication in a 5-person team. Delivered a scalable system under tight
+                            deadlines, aligning with PlayStation's passion for innovative, interactive gaming
+                            experiences, and documented design choices for team alignment.
                         </p>
+                        <ul class="exp-skills simple">
+                            <span>Java</span>
+                            <span>JavaFX</span>
+                            <span>OOP</span>
+                            <span>Game Design</span>
+                            <span>Team Collaboration</span>
+                        </ul>
                         <ul class="actions special">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li>
+                                <a href="https://github.com/NikAkt/way-back-home" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Github
+                                </a>
+                            </li>
                         </ul>
                     </article>
                     <article>
                         <header>
-                            <span class="date">April 14, 2017</span>
-                            <h2>
-                                <a href="#"
-                                    >Tempus sed<br />
-                                    nulla imperdiet</a
-                                >
-                            </h2>
+                            <span class="date">January 2024 - April 2024</span>
+                            <h2>CycleHub</h2>
                         </header>
-                        <a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
+                        <a href="https://github.com/Carlofinnegan/CycleHub" class="image fit" target="_blank">
+                            <div style="display: flex">
+                                <img src="images/cyclehub1.png" alt="CycleHub Screenshot 1" class="project-img" />
+                            </div>
+                        </a>
                         <p>
-                            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                            Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
+                            Served as Backend Developer and Production Manager for CycleHub, a Master's project to
+                            promote cycling in Dublin. Built a robust backend with Python (Flask) and AWS, integrating
+                            real-time bike and weather data into PostgreSQL. Collaborated with the Data team to deploy a
+                            demand prediction model, and supported the frontend with modern JavaScript for a Google
+                            Maps-inspired UI.
+                            <br /><br />
                         </p>
-                        <ul class="actions special">
-                            <li><a href="#" class="button">Full Story</a></li>
+                        <ul class="exp-skills simple">
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                            <span>Scikit-learn</span>
+                            <span>AWS</span>
+                            <span>MYSQL</span>
+                            <span>FIGMA</span>
                         </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <span class="date">April 11, 2017</span>
-                            <h2>
-                                <a href="#"
-                                    >Odio magna<br />
-                                    sed consectetur</a
-                                >
-                            </h2>
-                        </header>
-                        <a href="#" class="image fit"><img src="images/pic06.jpg" alt="" /></a>
-                        <p>
-                            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                            Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
-                        </p>
                         <ul class="actions special">
-                            <li><a href="#" class="button">Full Story</a></li>
-                        </ul>
-                    </article>
-                    <article>
-                        <header>
-                            <span class="date">April 7, 2017</span>
-                            <h2>
-                                <a href="#"
-                                    >Augue lorem<br />
-                                    primis vestibulum</a
-                                >
-                            </h2>
-                        </header>
-                        <a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-                        <p>
-                            Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-                            Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.
-                        </p>
-                        <ul class="actions special">
-                            <li><a href="#" class="button">Full Story</a></li>
+                            <li>
+                                <a href="https://github.com/Carlofinnegan/CycleHub" class="button" target="_blank">
+                                    <span class="icon brands fa-github"></span> Github
+                                </a>
+                            </li>
                         </ul>
                     </article>
                 </section>
@@ -206,20 +374,20 @@
                     <div class="pagination">
                         <!--<a href="#" class="previous">Prev</a>-->
                         <a href="#" class="page active">1</a>
-                        <a href="#" class="page">2</a>
+                        <!-- <a href="#" class="page">2</a>
                         <a href="#" class="page">3</a>
                         <span class="extra">&hellip;</span>
                         <a href="#" class="page">8</a>
                         <a href="#" class="page">9</a>
                         <a href="#" class="page">10</a>
-                        <a href="#" class="next">Next</a>
+                        <a href="#" class="next">Next</a> -->
                     </div>
                 </footer>
             </div>
 
             <!-- Footer -->
             <footer id="footer">
-                <section>
+                <section id="contact">
                     <form method="post" action="#">
                         <div class="fields">
                             <div class="field">
@@ -243,37 +411,26 @@
                 <section class="split contact">
                     <section class="alt">
                         <h3>Address</h3>
-                        <p>
-                            1234 Somewhere Road #87257<br />
-                            Nashville, TN 00000-0000
-                        </p>
-                    </section>
-                    <section>
-                        <h3>Phone</h3>
-                        <p><a href="#">(000) 000-0000</a></p>
+                        <p>Dublin, Republic of Ireland<br /></p>
                     </section>
                     <section>
                         <h3>Email</h3>
-                        <p><a href="#">info@untitled.tld</a></p>
+                        <p><a href="#">kyn00018@gmail.com</a></p>
                     </section>
                     <section>
                         <h3>Social</h3>
                         <ul class="icons alt">
                             <li>
-                                <a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="#" class="icon brands alt fa-facebook-f"
-                                    ><span class="label">Facebook</span></a
-                                >
-                            </li>
-                            <li>
-                                <a href="#" class="icon brands alt fa-instagram"
+                                <a
+                                    href="https://www.instagram.com/gyuwon.93?igsh=aGloYnFlY3J1bGFi&utm_source=qr"
+                                    class="icon brands alt fa-instagram"
                                     ><span class="label">Instagram</span></a
                                 >
                             </li>
                             <li>
-                                <a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a>
+                                <a href="https://github.com/Gyuwon-Jung93" class="icon brands alt fa-github"
+                                    ><span class="label">GitHub</span></a
+                                >
                             </li>
                         </ul>
                     </section>
@@ -281,12 +438,6 @@
             </footer>
 
             <!-- Copyright -->
-            <div id="copyright">
-                <ul>
-                    <li>&copy; Untitled</li>
-                    <li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </div>
         </div>
 
         <!-- Scripts -->
@@ -297,5 +448,6 @@
         <script src="assets/js/breakpoints.min.js"></script>
         <script src="assets/js/util.js"></script>
         <script src="assets/js/main.js"></script>
+        <script></script>
     </body>
 </html>

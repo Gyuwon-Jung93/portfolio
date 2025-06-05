@@ -2737,9 +2737,10 @@ input[type='radio']:focus + label:before {
 
 .image.main1 {
     display: block;
-    margin: 4rem 0;
-    width: 80%;
-    height: 80%;
+    margin: 4rem auto;
+    width: 40%;
+    height: auto;
+    max-width: 800px;
 }
 
 .image.main:first-child {
@@ -4797,4 +4798,98 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
         box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
         visibility: visible;
     }
+}
+
+@media screen and (max-width: 980px) {
+    .image.main1 {
+        width: 80%;
+        margin: 3rem auto;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .image.main1 {
+        width: 90%;
+        margin: 2rem auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .image.main1 {
+        width: 100%;
+        margin: 1.5rem auto;
+    }
+}
+
+/*
+Experience Card Styles for Portfolio (by Q1)
+*/
+.experience-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+.exp-card {
+    background: rgba(30, 37, 45, 0.85);
+    border-radius: 18px;
+    padding: 2rem 2.5rem;
+    color: #e0e6ed;
+    box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12);
+    position: relative;
+}
+.exp-period {
+    color: #7b8ca7;
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+    text-align: right;
+}
+.exp-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.exp-role {
+    color: #b0b8c9;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.exp-desc-list {
+    color: #b0b8c9;
+    font-size: 1.05rem;
+    margin: 1rem 0 1.2rem 0;
+    line-height: 1.7;
+    padding-left: 1.2em;
+}
+.exp-desc-list li {
+    margin-bottom: 1em;
+}
+.exp-desc-list strong {
+    color: #fff;
+    font-weight: 700;
+}
+.exp-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+.exp-skills span {
+    background: #13304a;
+    color: #4de1ff;
+    border-radius: 999px;
+    padding: 0.4em 1.1em;
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-top: 0.2em;
+}
+
+.exp-desc.simple {
+    color: #b0c4d4;
+    font-size: 1.15rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    text-align: left;
 }
