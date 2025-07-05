@@ -4893,3 +4893,12 @@ Experience Card Styles for Portfolio (by Q1)
     margin-bottom: 1.5rem;
     text-align: left;
 }
+
+section.posts a.image.fit img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 0 auto 1.2rem auto;
+    display: block;
+}
