@@ -2731,7 +2731,6 @@ input[type='radio']:focus + label:before {
 
 .image.main {
     display: block;
-    margin: 4rem 0;
     width: 100%;
 }
 
@@ -3393,7 +3392,7 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro {
     color: #ffffff;
-    padding: 8rem 4rem 6rem 4rem;
+
     -moz-align-items: center;
     -webkit-align-items: center;
     -ms-align-items: center;
@@ -4803,21 +4802,20 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 @media screen and (max-width: 980px) {
     .image.main1 {
         width: 80%;
-        margin: 3rem auto;
     }
 }
 
 @media screen and (max-width: 736px) {
     .image.main1 {
         width: 90%;
-        margin: 2rem auto;
+        margin: 1rem auto;
     }
 }
 
 @media screen and (max-width: 480px) {
     .image.main1 {
         width: 100%;
-        margin: 1.5rem auto;
+        margin: 1rem auto;
     }
 }
 
